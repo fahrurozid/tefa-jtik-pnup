@@ -6,7 +6,7 @@ const Services = () => {
       <div className="container mx-auto px-4 text-center" data-aos="fade-up">
         <h3 className="text-3xl font-bold">Our Services</h3>
         <hr className="w-16 h-1 bg-primary border-0 rounded-full mt-4 mb-6 mx-auto" />
-        <p className="max-w-2xl mx-auto text-gray">Dolor iure expedita id fuga asperiores qui sunt consequatur minima.</p>
+        <p className="max-w-2xl mx-auto text-gray">Layanan kami dirancang untuk membuat bisnis Anda menonjol dan lebih mudah dikenal.</p>
         <div className="grid md:grid-cols-2 gap-8 mt-16 max-w-4xl mx-auto">
           <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 text-left" data-aos="fade-up" data-aos-delay="100">
             <div className="text-3xl text-primary mb-4">

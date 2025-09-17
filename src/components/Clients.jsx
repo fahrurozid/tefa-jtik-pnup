@@ -11,10 +11,10 @@ import { Pagination, Autoplay } from "swiper/modules";
 
 // Data logo klien
 const clientLogos = [
-  "https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png",
+  "https://upload.wikimedia.org/wikipedia/commons/4/41/vVisa_Logo.png",
   "https://upload.wikimedia.org/wikipedia/commons/3/36/Coinbase_logo.svg",
   "https://upload.wikimedia.org/wikipedia/commons/7/7a/John_Deere_logo.svg",
-  "https://upload.wikimedia.org/wikipedia/commons/7/7b/Zoom_Communications_Logo.svg",
+  "https://upload.wikimedia.org/wikipedia/commons/7/7b/zZoom_Communications_Logo.svg",
   "https://upload.wikimedia.org/wikipedia/commons/7/7e/Grand_Hyatt_logo.svg",
   "https://upload.wikimedia.org/wikipedia/commons/0/0e/Fender_logo.svg",
 ];
@@ -36,7 +36,7 @@ const Clients = () => {
           }}
           pagination={{
             clickable: true,
-            el: ".swiper-pagination", // Menargetkan div pagination kustom di bawah
+            el: ".swiper-pagination", 
           }}
           slidesPerView={2}
           spaceBetween={20}

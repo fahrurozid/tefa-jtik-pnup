@@ -1,6 +1,5 @@
 import React from "react";
 
-// Data untuk semua kartu produk
 const productsData = [
   {
     icon: "fas fa-film",
@@ -46,9 +45,8 @@ const Products = () => {
       <div className="container mx-auto px-4 text-center" data-aos="fade-up">
         <h3 className="text-3xl font-bold">Our Products</h3>
         <hr className="w-16 h-1 bg-primary border-0 rounded-full mt-4 mb-6 mx-auto" />
-        <p className="max-w-2xl mx-auto text-gray">Dolor iure expedita id fuga asperiores qui sunt consequatur minima.</p>
+        <p className="max-w-2xl mx-auto text-gray">Solusi digital lengkap untuk mengembangkan bisnis Anda. </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 text-left">
-          {/* Menggunakan .map() untuk merender setiap produk secara dinamis */}
           {productsData.map((product, index) => (
             <div key={index} data-aos="zoom-in" data-aos-delay={product.delay} className="bg-light p-8 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col cursor-pointer h-full">
               <div className="flex-grow">
@@ -69,5 +67,4 @@ const Products = () => {
   );
 };
 
-// Pastikan baris ini ada untuk mengekspor komponen
 export default Products;
