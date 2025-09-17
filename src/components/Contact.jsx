@@ -5,7 +5,6 @@ const Contact = () => {
     <section id="contact" className="bg-white py-20 lg:py-24">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact Info */}
           <div>
             <h4 className="text-sm font-bold uppercase tracking-widest text-primary">Contact Us</h4>
             <h3 className="text-3xl font-bold mt-2">
@@ -44,7 +43,6 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Contact Form */}
           <div className="bg-light p-8 rounded-2xl shadow-lg">
             <form action="#" className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-6">

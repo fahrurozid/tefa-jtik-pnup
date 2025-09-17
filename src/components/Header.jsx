@@ -12,12 +12,10 @@ const Header = () => {
     <header className="bg-white/80 sticky top-0 z-50 backdrop-blur-lg shadow-sm relative">
       <div className="container mx-auto px-4">
         <div className="flex h-20 items-center justify-between">
-          {/* Brand Logo */}
           <a href="#home" className={`${styles.brandLogo} text-2xl font-bold`} onClick={closeMenu}>
             TEFA<span> JTIK</span>
           </a>
 
-          {/* Navigasi Desktop */}
           <nav className="hidden lg:flex items-center space-x-8">
             <a href="#home" className="text-base font-normal text-gray hover:text-primary">
               Home
@@ -36,12 +34,10 @@ const Header = () => {
             </a>
           </nav>
 
-          {/* Get Started Button (Desktop) */}
           <a href="#contact" className="hidden lg:inline-block bg-primary text-white text-base font-semibold px-6 py-2 rounded-full hover:bg-primary-dark">
             Get Started
           </a>
 
-          {/* Toggle Menu Button (Mobile Only) */}
           <button className="lg:hidden text-2xl z-50 ml-4" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
             <i className={`fa-solid ${isMenuOpen ? "fa-xmark" : "fa-bars"}`}></i>
           </button>

@@ -1,15 +1,10 @@
 import React from "react";
-
-// Impor komponen dan style dari library Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-
-// Impor modul yang dibutuhkan Swiper
 import { Pagination, Autoplay } from "swiper/modules";
 
-// Data logo klien
 const clientLogos = [
   "https://upload.wikimedia.org/wikipedia/commons/4/41/vVisa_Logo.png",
   "https://upload.wikimedia.org/wikipedia/commons/3/36/Coinbase_logo.svg",
@@ -36,7 +31,7 @@ const Clients = () => {
           }}
           pagination={{
             clickable: true,
-            el: ".swiper-pagination", 
+            el: ".swiper-pagination",
           }}
           slidesPerView={2}
           spaceBetween={20}
@@ -53,7 +48,6 @@ const Clients = () => {
             </SwiperSlide>
           ))}
 
-          {/* Elemen ini digunakan oleh Swiper untuk menampilkan titik-titik navigasi */}
           <div className="swiper-pagination mt-12 relative"></div>
         </Swiper>
       </div>
@@ -61,5 +55,4 @@ const Clients = () => {
   );
 };
 
-// Jangan lupa untuk mengekspor komponennya!
 export default Clients;
