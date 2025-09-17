@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for Swiper Pagination */
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #ff5c26; /* primary color */
+  opacity: 0.4;
+  transition: opacity 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}

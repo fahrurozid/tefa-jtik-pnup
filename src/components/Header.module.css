@@ -1,0 +1,9 @@
+.brandLogo {
+  transition: transform 0.3s ease-in-out;
+}
+.brandLogo:hover {
+  transform: scale(1.05);
+}
+.brandLogo span {
+  color: #ff5c26;
+}
