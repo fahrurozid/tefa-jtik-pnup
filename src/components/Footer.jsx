@@ -9,7 +9,7 @@ const Footer = () => {
             <a href="#" className="text-2xl font-bold">
               Teaching Factory<span className="text-primary"> JTIK</span>
             </a>
-            <p className="mt-4 text-sm text-gray-400">Psychoid reiciendis voluptatem sapiente velit dolly be tempor illum.</p>
+            <p className="mt-4 text-sm text-gray-400">Jurusan Teknik Informatik dan Komputer, Politeknik Negeri Ujung Pandang</p>
             <div className="mt-6 flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-primary">
                 <i className="fab fa-instagram fa-lg"></i>
@@ -79,7 +79,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-16 pt-8 border-t border-gray-800 text-center text-sm text-gray-500">
-          <p>&copy; {new Date().getFullYear()} TEFA | All rights reserved</p>
+          <p>&copy; {new Date().getFullYear()} TEFA JTIK PNUP | All rights reserved</p>
         </div>
       </div>
     </footer>

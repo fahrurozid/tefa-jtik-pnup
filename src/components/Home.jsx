@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section id="home" className="py-20 lg:py-32">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col lg:grid lg:grid-cols-2 gap-12 items-center">
+        <div className="flex flex-col lg:grid lg:grid-cols-2 gap-20 items-center">
           <div className="text-center lg:text-left order-2 lg:order-1" data-aos="fade-right">
             <h1 className={`${styles.glowOnHover} text-4xl md:text-5xl font-bold text-primary cursor-pointer`}>Where Innovation Meets</h1>
             <h2 className="text-3xl md:text-4xl font-bold text-dark mt-2 cursor-pointer">Real-World Practice</h2>
