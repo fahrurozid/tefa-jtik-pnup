@@ -20,7 +20,7 @@ const Clients = () => {
       <div className="container mx-auto px-4 text-center" data-aos="fade-up">
         <h3 className="text-3xl font-bold text-dark">Our Clients</h3>
         <hr className="w-16 h-1 bg-primary border-0 rounded-full mt-4 mb-6 mx-auto" />
-        <p className="max-w-2xl mx-auto text-gray">Dolor iure expedita id fuga asperiores qui sunt consequatur minima.</p>
+        <p className="max-w-2xl mx-auto text-gray">Client wleowleo</p>
 
         <Swiper
           modules={[Pagination, Autoplay]}

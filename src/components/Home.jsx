@@ -1,23 +1,36 @@
 import React from "react";
 import styles from "./Home.module.css";
-import innovationIllustration from "../assets/isometric-oren.svg";
+
+import heroMockup from "../assets/icon-network.svg";
+// import shape1 from "../assets/icon-network.svg";
+import shape2 from "../assets/icon-network.svg";
+// import shape3 from "../assets/icon-network.svg";
 
 const Home = () => {
   return (
-    <section id="home" className="py-20 lg:py-32">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col lg:grid lg:grid-cols-2 gap-20 items-center">
-          <div className="text-center lg:text-left order-2 lg:order-1" data-aos="fade-right">
-            <h1 className={`${styles.glowOnHover} text-4xl md:text-5xl font-bold text-primary cursor-pointer`}>Where Innovation Meets</h1>
-            <h2 className="text-3xl md:text-4xl font-bold text-dark mt-2 cursor-pointer">Real-World Practice</h2>
-            <p className="mt-6 text-gray text-lg">Enabling academic excellence and industrial relevance through real production collaboration and innovation.</p>
-            <a href="#products" className="mt-8 inline-block bg-primary text-white font-semibold px-8 py-3 rounded-full shadow-lg hover:shadow-xl">
-              Discover More ›
-            </a>
+    <section id="home" className="relative bg-light pt-24 pb-20 lg:pt-32 lg:pb-28 overflow-hidden">
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="text-center lg:text-left" data-aos="fade-right">
+            <h1 className={styles.heroTitle}>
+              Launch your <br />
+              <span className={styles.highlight}>Tech</span> Career <br />
+              at JTIK
+            </h1>
+            <p className="mt-6 text-gray-600 max-w-lg mx-auto lg:mx-0">Solusi terbaik untuk mengasah skill teknologimu, bekerja pada proyek nyata, dan berkolaborasi dengan para ahli di industri.</p>
+            <div className="mt-8 flex justify-center lg:justify-start items-center gap-6">
+              <a href="#products" className={styles.primaryBtn}>
+                Explore Projects
+              </a>
+            </div>
           </div>
 
-          <div className="flex justify-center order-1 lg:order-2" data-aos="fade-left">
-            <img src={innovationIllustration} alt="Innovation Illustration" className="w-full max-w-md rounded-2xl" />
+          <div className={styles.visualsContainer} data-aos="fade-left" data-aos-delay="200">
+            <img src={heroMockup} alt="TEFA JTIK Project Mockup" className="w-full h-auto" />
+
+            {/* <img src={shape1} alt="Decorative Shape" className="hidden lg:block absolute -top-12 -right-12 w-48 h-auto -z-10" data-aos="zoom-in" data-aos-delay="400" /> */}
+            <img src={shape2} alt="Decorative Shape" className="hidden lg:block absolute top-1/2 -left-12 w-24 h-auto -z-10" data-aos="zoom-in" data-aos-delay="500" />
+            {/* <img src={shape3} alt="Decorative Shape" className="hidden lg:block absolute bottom-0 right-0 w-12 h-auto" data-aos="zoom-in" data-aos-delay="600" /> */}
           </div>
         </div>
       </div>

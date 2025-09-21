@@ -23,21 +23,21 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <h4 className="font-bold tracking-wide">For Clients</h4>
+            <h4 className="font-bold tracking-wide">Quick Links</h4>
             <ul className="mt-4 space-y-3 text-sm">
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  First Residence
+                  1
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Fresh Project
+                  2
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Richard Bellamy
+                  3
                 </a>
               </li>
               <li>

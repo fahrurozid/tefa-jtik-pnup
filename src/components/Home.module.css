@@ -1,6 +1,23 @@
-/* .glowOnHover {
-  transition: text-shadow 0.3s ease-in-out;
+.heroTitle {
+  @apply text-5xl md:text-6xl font-black text-dark leading-tight;
 }
-.glowOnHover:hover {
-  text-shadow: 0 0 20px rgba(255, 92, 38, 0.9);
-} */
+
+.highlight {
+  @apply relative inline-block;
+}
+.highlight::before {
+  content: "";
+  @apply absolute bottom-1 left-[-0.25rem] right-[-0.25rem] h-4/5 bg-accent rounded-lg -z-10;
+}
+
+.primaryBtn {
+  @apply inline-block bg-dark text-accent font-bold px-8 py-3 rounded-xl hover:bg-gray-800 transition-all duration-300;
+}
+
+.secondaryBtn {
+  @apply inline-flex items-center text-dark font-bold hover:text-primary transition-colors;
+}
+
+.visualsContainer {
+  @apply relative;
+}
