@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+// @type {import('tailwindcss').Config} 
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -24,6 +24,7 @@ export default {
         // accent: "#F1FF0A", 
         // accent: "#FFEF4D", 
         accent: "#F8D613", 
+        accent2: "#f7e164ff", 
         // accent2: "#fff200ff", 
         dark: "#111827", 
         light: "#FFFFFF", 

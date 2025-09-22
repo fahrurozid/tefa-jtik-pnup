@@ -29,13 +29,13 @@ const Header = () => {
             <a href="#products" className="text-base font-normal text-gray hover:text-primary">
               Products
             </a>
-            <a href="#contact" className="text-base font-normal text-gray hover:text-primary">
+            {/* <a href="#contact" className="text-base font-normal text-gray hover:text-primary">
               Contact
-            </a>
+            </a> */}
           </nav>
 
           <a href="#contact" className="hidden lg:inline-block bg-primary text-white text-base font-semibold px-6 py-2 rounded-full hover:bg-primary-dark">
-            Get Started
+            Contact
           </a>
 
           <button className="lg:hidden text-2xl z-50 ml-4" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
@@ -44,7 +44,6 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Dropdown Menu */}
       <div className={`lg:hidden absolute top-20 left-0 w-full bg-white shadow-md transition-all duration-500 ease-in-out transform ${isMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4 pointer-events-none"}`}>
         <nav className="flex flex-col">
           <a href="#home" className="text-lg text-gray-700 py-4 px-4 border-b border-gray-100 hover:bg-gray-50" onClick={closeMenu}>

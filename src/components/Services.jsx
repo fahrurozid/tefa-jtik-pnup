@@ -2,19 +2,19 @@ import React from "react";
 
 const servicesData = [
   {
-    mainIcon: "fas fa-cloud", 
+    mainIcon: "fas fa-cloud",
     title: "Software as a Service",
     description: "Proyek aplikasi yang diselesaikan dengan teknologi modern.",
-    decorativeIcon: "fas fa-cloud", 
+    decorativeIcon: "fas fa-cloud",
   },
   {
-    mainIcon: "fas fa-microchip", 
+    mainIcon: "fas fa-microchip",
     title: "Smart Device",
     description: "Tingkat keandalan pada solusi jaringan yang kami bangun.",
     decorativeIcon: "fas fa-microchip",
   },
   {
-    mainIcon: "fas fa-envelope-open-text", 
+    mainIcon: "fas fa-envelope-open-text",
     title: "Persuratan",
     description: "Jangkauan audiens dari konten digital yang kami produksi.",
     decorativeIcon: "fas fa-envelope-open-text",
@@ -31,8 +31,9 @@ const Services = () => {
         </div> */}
         <div className="grid lg:grid-cols-2 gap-4 items-center mb-16">
           <div data-aos="fade-right">
-            <h2 className="text-4xl lg:text-5xl font-medium text-dark leading-tight">
-              How We Deliver <span className="text-accent">Real World</span> Impact
+            <p className="text-sm font-bold text-dark uppercase tracking-wider mb-2">OUR SERVICES</p>
+            <h2 className="text-4xl lg:text-5xl font-bold text-primary leading-tight">
+              Comprehensive Solutions for <span className="text-accent">Your Needs</span>
             </h2>
           </div>
           <div data-aos="fade-left">

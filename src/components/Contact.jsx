@@ -17,7 +17,7 @@ const Contact = () => {
                 <i className="fas fa-map-marker-alt text-primary text-xl mt-1"></i>
                 <div>
                   <h5 className="font-bold">Address</h5>
-                  <p className="text-gray">Makassar, South Sulawesi, Indonesia</p>
+                  <p className="text-gray">Jurusan Teknik Informatika & Komputer, Politeknik Negeri Ujung Pandang, Makassar, Indonesia</p>
                 </div>
               </div>
 

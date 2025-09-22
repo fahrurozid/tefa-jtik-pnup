@@ -1,32 +1,28 @@
 import React from "react";
-import aboutUs from "../assets/about-us.svg";
+import aboutUsImage from "../assets/abous.svg";
 
 const About = () => {
   return (
-    <section id="about" className="bg-white py-20 lg:py-24 overflow-hidden">
+    <section id="about" className="bg-light py-20 lg:py-24">
       <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <div className="flex justify-center" data-aos="fade-right">
-            <img src={aboutUs} alt="about us" className="w-full max-w-md rounded-2xl" />{" "}
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div data-aos="fade-right">
+            {/* <img src={aboutUsImage} alt="Tim TEFA JTIK berkolaborasi" className="rounded-2xl shadow-lg w-full h-full object-cover" /> */}
+            <img src={aboutUsImage} alt="Tim TEFA JTIK berkolaborasi" className="rounded-2xl w-full h-full object-cover" />
           </div>
-          <div className="text-center lg:text-left" data-aos="fade-left">
-            <h3 className="text-3xl font-bold text-dark">Who Are We?</h3>
-            <hr className="w-16 h-1 bg-primary border-0 rounded-full mt-4 mb-6 mx-auto lg:mx-0" />
-            <p className="text-gray leading-relaxed mb-4">
-              Jurusan Teknik Informatika dan Komputer (JTIK) PNUP resmi berdiri pada Desember 2023 sebagai unit mandiri yang dimekarkan dari Jurusan Teknik Elektro. Kami berfokus pada pengembangan teknologi informasi dan komunikasi melalui
-              dua program studi unggulan:
+
+          <div data-aos="fade-left" data-aos-delay="200">
+            <p className="text-sm font-bold text-primary uppercase tracking-wider mb-2">ABOUT US</p>
+            <h2 className="text-4xl lg:text-5xl font-bold text-dark leading-tight">
+              Why You Should Choose <span className="text-primary">TEFA JTIK</span>
+            </h2>
+            <p className="text-gray-600 mt-6 leading-relaxed">
+              Kami adalah teaching factory yang berspesialisasi dalam pengembangan web, manajemen jaringan, dan produksi konten digital. Tim ahli kami yang terdiri dari dosen dan mahasiswa bekerja sama untuk memberikan solusi yang
+              disesuaikan untuk memenuhi kebutuhan spesifik industri.
             </p>
-            <ul className="list-disc list-inside text-gray space-y-2">
-              <li>
-                <b>Teknik Komputer dan Jaringan (TKJ)</b>
-              </li>
-              <li>
-                <b>Teknik Multimedia dan Jaringan (TMJ)</b>
-              </li>
-            </ul>
-            <p className="text-gray leading-relaxed mt-4">Pembentukan jurusan ini bertujuan untuk pengelolaan prodi yang lebih terarah dan meningkatkan daya saing lulusan di dunia industri.</p>
-            <a href="https://tik.poliupg.ac.id/" target="_blank" rel="noopener noreferrer" className="mt-8 inline-block bg-dark text-white font-semibold px-8 py-3 rounded-lg shadow-md hover:shadow-lg">
-              READ MORE
+            <a href="https://tik.poliupg.ac.id/" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center text-primary font-semibold mt-8">
+              Learn More
+              <i className="fas fa-arrow-right ml-2 transition-transform duration-300 group-hover:translate-x-1"></i>
             </a>
           </div>
         </div>

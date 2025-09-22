@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import TrustBar from "./components/TrustBar";
 import About from "./components/About";
 import Services from "./components/Services";
+import WorkProcess from "./components/WorkProcess";
 import Products from "./components/Products";
 import Clients from "./components/Clients";
 import CTA from "./components/CTA";
@@ -24,15 +25,16 @@ function App() {
   return (
     // <div className="bg-light text-dark relative overflow-x-hidden">
     <div className="bg-light text-dark relative">
-      <div className="hidden lg:block absolute top-0 -left-64 w-96 h-96 bg-primary/30 rounded-full filter blur-3xl opacity-50 animate-blob"></div>
+      {/* <div className="hidden lg:block absolute top-0 -left-64 w-96 h-96 bg-primary/30 rounded-full filter blur-3xl opacity-50 animate-blob"></div> */}
       {/* <div className="hidden lg:block absolute top-0 -right-64 w-96 h-96 bg-accent/30 rounded-full filter blur-3xl opacity-50 animate-blob animation-delay-2000"></div> */}
 
       <Header />
-      <main>
+      <main className="overflow-x-hidden">
         <Home />
         <TrustBar />
         <About />
         <Services />
+        <WorkProcess />
         <Products />
         <Clients />
         <CTA />

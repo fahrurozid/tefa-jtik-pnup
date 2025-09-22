@@ -1,65 +1,62 @@
 import React from "react";
 
-const productsData = [
+import projectImage1 from "../assets/webdev.jpg";
+import projectImage2 from "../assets/server.jpg";
+import projectImage3 from "../assets/iot.jpg";
+
+const projectsData = [
   {
-    icon: "fas fa-film",
-    title: "Video & Digital Content Production",
-    description: "Kami menyediakan layanan produksi video profesional, mulai dari video profil perusahaan, iklan digital, hingga konten media sosial.",
-    delay: 50,
+    image: projectImage1,
+    title: "College Information System",
+    description: "Platform terpusat untuk mengelola data mahasiswa, jadwal, dan nilai secara efisien.",
+    link: "#",
   },
   {
-    icon: "fas fa-mobile-alt",
-    title: "Mobile & Web Application Development",
-    description: "Membangun aplikasi mobile (Android/iOS) dan website modern yang responsif sesuai kebutuhan bisnis Anda.",
-    delay: 100,
+    image: projectImage2,
+    title: "Network Design",
+    description: "Solusi desain dan implementasi sistem jaringan.",
+    link: "#",
   },
   {
-    icon: "fas fa-pencil-alt",
-    title: "Visual Branding Package",
-    description: "Paket lengkap untuk identitas visual bisnis Anda, termasuk desain logo, palet warna, dan panduan merek.",
-    delay: 150,
-  },
-  {
-    icon: "fas fa-cloud",
-    title: "Cloud-Based Dashboard & Monitoring",
-    description: "Solusi dashboard berbasis cloud untuk memonitor data bisnis Anda secara real-time dari mana saja.",
-    delay: 200,
-  },
-  {
-    icon: "fas fa-database",
-    title: "Database System Solutions",
-    description: "Perancangan dan implementasi sistem database yang efisien dan aman untuk mengelola data Anda.",
-    delay: 250,
-  },
-  {
-    icon: "fas fa-globe",
-    title: "Network Design & Deployment",
-    description: "Menyediakan layanan desain, instalasi, dan pemeliharaan infrastruktur jaringan komputer untuk kantor atau bisnis.",
-    delay: 300,
+    image: projectImage3,
+    title: "Internet of Things (IoT)",
+    description: "Perangkat pintar yang dirancang untuk monitoring dan otomatisasi, dari prototipe hingga implementasi.",
+    link: "#",
   },
 ];
 
 const Products = () => {
   return (
     <section id="products" className="bg-white py-20 lg:py-24">
-      <div className="container mx-auto px-4 text-center" data-aos="fade-up">
-        <h3 className="text-3xl font-bold">Our Products</h3>
-        <hr className="w-16 h-1 bg-primary border-0 rounded-full mt-4 mb-6 mx-auto" />
-        <p className="max-w-2xl mx-auto text-gray">Solusi digital lengkap untuk mengembangkan bisnis Anda. </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 text-left">
-          {productsData.map((product, index) => (
-            <div key={index} data-aos="zoom-in" data-aos-delay={product.delay} className="bg-light p-8 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col cursor-pointer h-full">
-              <div className="flex-grow">
-                <div className="text-3xl text-primary mb-4">
-                  <i className={product.icon}></i>
-                </div>
-                <h4 className="text-lg font-bold mb-2">{product.title}</h4>
-                <p className="text-gray text-sm leading-relaxed">{product.description}</p>
+      <div className="container mx-auto px-4">
+        <div className="grid lg:grid-cols-2 gap-8 items-center mb-16" data-aos="fade-up">
+          <div>
+            <p className="text-sm font-bold text-primary uppercase tracking-wider mb-2">OUR PROJECTS</p>
+            <h2 className="text-4xl lg:text-5xl font-bold text-dark leading-tight">
+              Find Your Next <br />
+              <span className="text-accent">Favorite Product</span>
+            </h2>
+          </div>
+          <div className="text-gray-600">
+            <p>Kami menyediakan layanan pengembangan teknologi untuk membantu klien meningkatkan visibilitas dan mencapai target audiens mereka secara lebih efektif.</p>
+            <a href="#" className="group inline-flex items-center text-primary font-semibold mt-4">
+              Discover More
+              <i className="fas fa-arrow-right ml-2 transition-transform duration-300 group-hover:translate-x-1"></i>
+            </a>
+          </div>
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {projectsData.map((project, index) => (
+            <a href={project.link} key={index} className="group block" data-aos="fade-up" data-aos-delay={index * 100}>
+              <div className="overflow-hidden rounded-2xl shadow-lg group-hover:shadow-xl transition-shadow duration-300">
+                <img src={project.image} alt={project.title} className="w-full h-64 object-cover object-top transform group-hover:scale-105 transition-transform duration-300" />
               </div>
-              <div className="mt-6 text-right">
-                <i className="fas fa-arrow-right text-primary text-xl"></i>
+              <div className="mt-6">
+                <h3 className="text-xl font-bold text-dark">{project.title}</h3>
+                <p className="text-gray-500 mt-2">{project.description}</p>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>

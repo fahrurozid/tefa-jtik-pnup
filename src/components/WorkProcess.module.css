@@ -1,0 +1,17 @@
+.stepsContainer {
+  @apply hidden md:flex;
+}
+
+.stepItem {
+  @apply flex-1 relative;
+}
+
+.stepItem:not(:last-child)::after {
+  content: "";
+  @apply absolute top-7 left-1/2 w-full h-0;
+  border-top: 2px dashed theme("colors.gray.300");
+}
+
+.stepIcon {
+  @apply w-14 h-14 border-2 border-gray-200 bg-light rounded-full flex items-center justify-center mx-auto relative z-10;
+}

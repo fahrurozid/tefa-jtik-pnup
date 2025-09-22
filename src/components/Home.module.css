@@ -1,23 +1,74 @@
 .heroTitle {
-  @apply text-5xl md:text-6xl font-black text-dark leading-tight;
+  @apply text-6xl md:text-7xl font-semibold text-dark tracking-tighter leading-none;
 }
 
-.highlight {
-  @apply relative inline-block;
+.highlightText {
+  color: theme("colors.primary");
 }
-.highlight::before {
-  content: "";
-  @apply absolute bottom-1 left-[-0.25rem] right-[-0.25rem] h-4/5 bg-accent rounded-lg -z-10;
+/* .highlightText2 {
+  color: theme('colors.accent'); 
+} */
+
+.statContainer {
+  @apply flex items-center gap-3;
+}
+.statCircle {
+  @apply w-12 h-12 bg-dark rounded-full flex-shrink-0;
+  background: linear-gradient(45deg, theme("colors.primary"), theme("colors.dark"));
 }
 
-.primaryBtn {
-  @apply inline-block bg-dark text-accent font-bold px-8 py-3 rounded-xl hover:bg-gray-800 transition-all duration-300;
+.definitionCard {
+  @apply bg-white/50 backdrop-blur-md border border-white/20 p-6 rounded-2xl max-w-xs;
 }
 
-.secondaryBtn {
-  @apply inline-flex items-center text-dark font-bold hover:text-primary transition-colors;
+.rotatingBadge {
+  @apply absolute bottom-8 right-8 w-32 h-32;
 }
 
-.visualsContainer {
-  @apply relative;
+.rotatingBadge svg {
+  @apply w-full h-full;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.rotatingText {
+  animation: rotate 10s linear infinite;
+  transform-origin: center;
+  fill: theme("colors.dark");
+  font-weight: 600;
+  font-size: 22px; 
+}
+
+.badgeArrow {
+  @apply w-10 h-10 bg-dark text-accent rounded-full flex items-center justify-center;
+}
+
+.statsCard {
+  @apply bg-accent text-dark p-6 rounded-2xl;
+}
+
+.statItem {
+  @apply flex justify-between items-center py-3;
+}
+
+.statValue {
+  @apply text-4xl font-black;
+}
+
+.statLabel {
+  @apply text-sm font-semibold;
+}
+
+.separator {
+  @apply border-t-2 border-dark/20;
+}
+
+.arrowIcon {
+  @apply text-2xl;
 }

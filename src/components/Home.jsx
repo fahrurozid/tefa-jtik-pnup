@@ -1,37 +1,63 @@
 import React from "react";
 import styles from "./Home.module.css";
 
-import heroMockup from "../assets/icon-network.svg";
-// import shape1 from "../assets/icon-network.svg";
-import shape2 from "../assets/icon-network.svg";
-// import shape3 from "../assets/icon-network.svg";
+import abstractBgImage from "../assets/hero.jpg";
 
 const Home = () => {
   return (
-    <section id="home" className="relative bg-light pt-24 pb-20 lg:pt-32 lg:pb-28 overflow-hidden">
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="text-center lg:text-left" data-aos="fade-right">
-            <h1 className={styles.heroTitle}>
-              Launch your <br />
-              <span className={styles.highlight}>Tech</span> Career <br />
-              at JTIK
-            </h1>
-            <p className="mt-6 text-gray-600 max-w-lg mx-auto lg:mx-0">Solusi terbaik untuk mengasah skill teknologimu, bekerja pada proyek nyata, dan berkolaborasi dengan para ahli di industri.</p>
-            <div className="mt-8 flex justify-center lg:justify-start items-center gap-6">
-              <a href="#products" className={styles.primaryBtn}>
-                Explore Projects
-              </a>
+    <section id="home" className="bg-light pt-24 pb-12 lg:pt-12 relative overflow-hidden">
+      <div className="container mx-auto px-6">
+        <div data-aos="fade-up">
+          {/* <i className="fas fa-star-of-life text-accent text-3xl absolute bottom-14 right-1/4 opacity-60 z-0" data-aos="zoom-in" data-aos-delay="700"></i> */}
+
+          <div className="flex justify-between items-start">
+            {/* <p className="text-dark font-semibold">©{new Date().getFullYear()}</p> */}
+            {/* <i className="fas fa-star-of-life text-primary text-4xl" data-aos="zoom-in" data-aos-delay="900"></i> */}
+          </div>
+
+          <h1 className={`${styles.heroTitle} mt-4`}>
+            More Than Just <br />A <span className={styles.highlightText}>Teaching</span> Factory
+          </h1>
+        </div>
+
+        <div className="grid lg:grid-cols-2 gap-8 mt-12" data-aos="fade-up" data-aos-delay="200">
+          <div className={styles.statContainer}>
+            <div className={styles.statCircle}></div>
+            <div>
+              <p className="text-xl font-bold text-dark">100+ Completed Projects</p>
+              <p className="text-gray-500">From real industry partners</p>
             </div>
           </div>
-
-          <div className={styles.visualsContainer} data-aos="fade-left" data-aos-delay="200">
-            <img src={heroMockup} alt="TEFA JTIK Project Mockup" className="w-full h-auto" />
-
-            {/* <img src={shape1} alt="Decorative Shape" className="hidden lg:block absolute -top-12 -right-12 w-48 h-auto -z-10" data-aos="zoom-in" data-aos-delay="400" /> */}
-            <img src={shape2} alt="Decorative Shape" className="hidden lg:block absolute top-1/2 -left-12 w-24 h-auto -z-10" data-aos="zoom-in" data-aos-delay="500" />
-            {/* <img src={shape3} alt="Decorative Shape" className="hidden lg:block absolute bottom-0 right-0 w-12 h-auto" data-aos="zoom-in" data-aos-delay="600" /> */}
+          <div>
+            <p className="text-gray-600 leading-relaxed">We don't just teach theories. We build real-world solutions by integrating specialist knowledge into our project-based learning.</p>
           </div>
+        </div>
+      </div>
+
+      <div className="container mx-auto px-4 mt-16 relative">
+        <div className="relative rounded-3xl overflow-hidden" data-aos="zoom-in" data-aos-delay="300">
+          <img src={abstractBgImage} alt="Abstract background" className="w-full h-[400px] object-cover" />
+
+          <div className={`${styles.definitionCard} absolute bottom-8 left-8`}>
+            <p className="font-bold text-dark">Teach·ing Fac·to·ry</p>
+            <p className="text-sm text-gray-700 mt-1">An innovative learning model that combines academic education with real-world industry project production.</p>
+          </div>
+
+          <a href="#services" className={styles.rotatingBadge}>
+            <svg viewBox="0 0 100 100">
+              <defs>
+                <path id="circle" d="M 50, 50 m -40, 0 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0" />
+              </defs>
+              <text className={styles.rotatingText}>
+                <textPath xlinkHref="#circle">GET STARTED • GET STARTED • GET STARTED •</textPath>
+              </text>
+            </svg>
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+              <div className={styles.badgeArrow}>
+                <i className="fas fa-arrow-down"></i>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </section>

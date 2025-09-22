@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="md:col-span-2 lg:col-span-1">
             <a href="#" className="text-2xl font-bold">
-              Teaching Factory<span className="text-primary"> JTIK</span>
+              Teaching Factory<span className="text-accent"> JTIK</span>
             </a>
             <p className="mt-4 text-sm text-gray-400">Jurusan Teknik Informatik dan Komputer, Politeknik Negeri Ujung Pandang</p>
             <div className="mt-6 flex space-x-4">
@@ -26,18 +26,18 @@ const Footer = () => {
             <h4 className="font-bold tracking-wide">Quick Links</h4>
             <ul className="mt-4 space-y-3 text-sm">
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  1
+                <a href="#home" className="text-gray-400 hover:text-white">
+                  Home
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  2
+                <a href="#about" className="text-gray-400 hover:text-white">
+                  About
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  3
+                <a href="#services" className="text-gray-400 hover:text-white">
+                  Services
                 </a>
               </li>
               <li>
@@ -48,22 +48,27 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="font-bold tracking-wide">idk wht for?</h4>
+            <h4 className="font-bold tracking-wide">Company</h4>
             <ul className="mt-4 space-y-3 text-sm">
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  apcb
+                <a href="#about" className="text-gray-400 hover:text-white">
+                  About
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  yahhahyyuk
+                <a href="#clients" className="text-gray-400 hover:text-white">
+                  Clients
+                </a>
+              </li>
+              <li>
+                <a href="#contact" className="text-gray-400 hover:text-white">
+                  Contact
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="font-bold tracking-wide">Call Us</h4>
+            <h4 className="font-bold tracking-wide">Reach</h4>
             <ul className="mt-4 space-y-3 text-sm">
               <li>
                 <a href="tel:+6282101245487" className="text-gray-400 hover:text-white">
