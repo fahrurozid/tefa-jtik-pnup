@@ -26,22 +26,22 @@ const Footer = () => {
             <h4 className="font-bold tracking-wide">Quick Links</h4>
             <ul className="mt-4 space-y-3 text-sm">
               <li>
-                <a href="#home" className="text-gray-400 hover:text-white">
+                <a href="#home" className="text-gray-400 hover:text-accent">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#about" className="text-gray-400 hover:text-white">
+                <a href="#about" className="text-gray-400 hover:text-accent">
                   About
                 </a>
               </li>
               <li>
-                <a href="#services" className="text-gray-400 hover:text-white">
+                <a href="#services" className="text-gray-400 hover:text-accent">
                   Services
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="#" className="text-gray-400 hover:text-accent">
                   Privacy Policy
                 </a>
               </li>
@@ -51,17 +51,17 @@ const Footer = () => {
             <h4 className="font-bold tracking-wide">Company</h4>
             <ul className="mt-4 space-y-3 text-sm">
               <li>
-                <a href="#about" className="text-gray-400 hover:text-white">
+                <a href="#about" className="text-gray-400 hover:text-accent">
                   About
                 </a>
               </li>
               <li>
-                <a href="#clients" className="text-gray-400 hover:text-white">
+                <a href="#clients" className="text-gray-400 hover:text-accent">
                   Clients
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-gray-400 hover:text-white">
+                <a href="#contact" className="text-gray-400 hover:text-accent">
                   Contact
                 </a>
               </li>
@@ -71,12 +71,12 @@ const Footer = () => {
             <h4 className="font-bold tracking-wide">Reach</h4>
             <ul className="mt-4 space-y-3 text-sm">
               <li>
-                <a href="tel:+6282101245487" className="text-gray-400 hover:text-white">
-                  +62 821 0124 5487
+                <a href="tel:+6282101245487" className="text-gray-400 hover:text-accent">
+                  023456789237
                 </a>
               </li>
               <li>
-                <a href="mailto:tefa.jtik@gmail.com" className="text-gray-400 hover:text-white">
+                <a href="mailto:tefa.jtik@gmail.com" className="text-gray-400 hover:text-accent">
                   tefa.jtik@gmail.com
                 </a>
               </li>

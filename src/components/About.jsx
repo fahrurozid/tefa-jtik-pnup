@@ -14,11 +14,11 @@ const About = () => {
           <div data-aos="fade-left" data-aos-delay="200">
             <p className="text-sm font-bold text-primary uppercase tracking-wider mb-2">ABOUT US</p>
             <h2 className="text-4xl lg:text-5xl font-bold text-dark leading-tight">
-              Why You Should Choose <span className="text-primary">TEFA JTIK</span>
+              Why You Should <span className="text-primary">Choose</span> Us?
             </h2>
             <p className="text-gray-600 mt-6 leading-relaxed">
-              Kami adalah teaching factory yang berspesialisasi dalam pengembangan web, manajemen jaringan, dan produksi konten digital. Tim ahli kami yang terdiri dari dosen dan mahasiswa bekerja sama untuk memberikan solusi yang
-              disesuaikan untuk memenuhi kebutuhan spesifik industri.
+              Di Teaching Factory Jurusan Teknik Informatika dan Komputer, Politeknik Negeri Ujung Pandang, kami percaya bahwa kolaborasi adalah kunci inovasi. Bersama dosen dan mahasiswa, kami mengembangkan solusi web, manajemen jaringan,
+              dan konten digital yang dirancang untuk membantu industri berkembang dan beradaptasi dengan era digital.
             </p>
             <a href="https://tik.poliupg.ac.id/" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center text-primary font-semibold mt-8">
               Learn More

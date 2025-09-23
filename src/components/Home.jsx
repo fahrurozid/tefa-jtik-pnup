@@ -43,7 +43,7 @@ const Home = () => {
             <p className="text-sm text-gray-700 mt-1">An innovative learning model that combines academic education with real-world industry project production.</p>
           </div>
 
-          <a href="#services" className={styles.rotatingBadge}>
+          <a href="#services" className={`${styles.rotatingBadge} absolute top-4 right-4 transform scale-795 lg:scale-100`}>
             <svg viewBox="0 0 100 100">
               <defs>
                 <path id="circle" d="M 50, 50 m -40, 0 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0" />
