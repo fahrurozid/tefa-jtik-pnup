@@ -1,0 +1,22 @@
+.testimonialCard {
+  @apply bg-[#FFFBEB] p-8 rounded-2xl shadow-sm h-full flex flex-col;
+}
+
+.testimonialCard::after {
+  content: "";
+  @apply absolute left-8 -bottom-[15px] w-0 h-0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid white;
+}
+
+.navButton {
+  @apply w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center text-dark transition-colors duration-300 disabled:opacity-50 hover:bg-gray-200;
+}
+
+.pagination {
+  @apply relative w-full h-1 bg-gray-200 rounded-full;
+}
+.pagination .swiper-pagination-progressbar-fill {
+  @apply bg-primary; 
+}

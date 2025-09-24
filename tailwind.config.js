@@ -27,6 +27,7 @@ export default {
         accent2: "#f7e164ff", 
         // accent2: "#fff200ff", 
         dark: "#111827", 
+        darkfade: "#f9f9f9ff", 
         light: "#FFFFFF", 
       },
     },

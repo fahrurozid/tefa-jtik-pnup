@@ -43,7 +43,8 @@ const Services = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {servicesData.map((service, index) => (
-            <a href="#" key={index} className="group block bg-black/5 rounded-3xl p-8 shadow-lg hover:bg-accent transition-all duration-300 relative overflow-hidden" data-aos="fade-up" data-aos-delay={index * 100}>
+            // <a href="#" key={index} className="group block bg-black/5 rounded-3xl p-8 shadow-lg hover:bg-accent transition-all duration-300 relative overflow-hidden" data-aos="fade-up" data-aos-delay={index * 100}>
+            <a href="#" key={index} className="group block bg-darkfade rounded-3xl p-8 hover:bg-accent/80 transition-all duration-300 relative overflow-hidden" data-aos="fade-up" data-aos-delay={index * 100}>
               <div className="absolute top-6 right-6 bg-gray-100 group-hover:bg-primary rounded-full p-2 transition-colors duration-300">
                 <i className="fas fa-arrow-right text-dark group-hover:text-white transition-colors duration-300"></i>
               </div>

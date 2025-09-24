@@ -10,6 +10,7 @@ import Services from "./components/Services";
 import WorkProcess from "./components/WorkProcess";
 import Products from "./components/Products";
 import Clients from "./components/Clients";
+import Testimonials from "./components/Testimonials";
 import CTA from "./components/CTA";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -37,6 +38,7 @@ function App() {
         <WorkProcess />
         <Products />
         <Clients />
+        <Testimonials />
         <CTA />
         <Contact />
       </main>
