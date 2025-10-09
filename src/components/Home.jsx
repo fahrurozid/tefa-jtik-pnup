@@ -16,7 +16,9 @@ const Home = () => {
           </div>
 
           <h1 className={`${styles.heroTitle} mt-4`}>
-            More Than Just <br />A <span className={styles.highlightText}>Teaching</span> Factory
+            Bangun Solusi Digital <br />
+            Anda di <span className={styles.highlightText}>Teaching <br />Factory</span> { }
+            TIK PNUP
           </h1>
         </div>
 
@@ -24,12 +26,12 @@ const Home = () => {
           <div className={styles.statContainer}>
             <div className={styles.statCircle}></div>
             <div>
-              <p className="text-xl font-bold text-dark">100+ Completed Projects</p>
-              <p className="text-gray-500">From real industry partners</p>
+              <p className="text-xl font-bold text-dark">50+ Proyek Selesai</p>
+              <p className="text-gray-500">Dari mitra industri nyata</p>
             </div>
           </div>
           <div>
-            <p className="text-gray-600 leading-relaxed">We don't just teach theories. We build real-world solutions by integrating specialist knowledge into our project-based learning.</p>
+            <p className="text-gray-600 leading-relaxed">Kami tidak hanya mengajarkan teori. Kami membangun solusi nyata dengan mengintegrasikan pengetahuan spesialis ke dalam pembelajaran berbasis proyek.</p>
           </div>
         </div>
       </div>

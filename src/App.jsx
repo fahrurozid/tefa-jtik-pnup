@@ -6,11 +6,17 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import TrustBar from "./components/TrustBar";
 import About from "./components/About";
+import Features from "./components/Features";
 import Services from "./components/Services";
 import WorkProcess from "./components/WorkProcess";
 import Products from "./components/Products";
 import Clients from "./components/Clients";
+import StudentPrograms from "./components/StudentPrograms";
+import Infrastructure from "./components/Infrastructure";
+import HowToOrder from "./components/HowToOrder";
+// import InnovationNews from "./components/InnovationNews";
 import Testimonials from "./components/Testimonials";
+import FAQ from "./components/FAQ";
 import CTA from "./components/CTA";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -33,12 +39,18 @@ function App() {
       <main className="overflow-x-hidden">
         <Home />
         <TrustBar />
+        <Clients />
         <About />
+        <Features />
         <Services />
         <WorkProcess />
         <Products />
-        <Clients />
+        <StudentPrograms />
+        <Infrastructure />
+        <HowToOrder />
+        {/* <InnovationNews /> */}
         <Testimonials />
+        <FAQ />
         <CTA />
         <Contact />
       </main>

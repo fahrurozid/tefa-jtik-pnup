@@ -1,21 +1,20 @@
 import React from "react";
 
-// Data untuk kartu statistik, kita sesuaikan agar memiliki ikon
 const statsData = [
   {
     icon: "fas fa-users",
-    value: "50+",
-    label: "Industry Partners",
+    value: "10+",
+    label: "Mitra Industri",
   },
   {
     icon: "fas fa-check-circle",
-    value: "100+",
-    label: "Completed Projects",
+    value: "50+",
+    label: "Proyek Selesai",
   },
   {
     icon: "fas fa-star",
-    value: "4.9/5.0",
-    label: "Client Review",
+    value: "90%",
+    label: "Kepuasan Mitra",
   },
 ];
 
@@ -25,8 +24,8 @@ const TrustBar = () => {
       <div className="container mx-auto px-10">
         <div className="mb-14" data-aos="fade-up">
           <h2 className="text-4xl lg:text-5xl font-bold text-dark leading-tight">
-            Unlock the Potential of <br />
-            Our <span className="text-primary">Teaching Factory</span>
+            Buka Potensi Penuh dari <br />
+            <span className="text-primary">Teaching Factory</span> Kami
           </h2>
         </div>
 

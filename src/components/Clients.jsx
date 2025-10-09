@@ -18,9 +18,9 @@ const Clients = () => {
   return (
     <section id="clients" className="py-20 lg:py-24 bg-light overflow-hidden">
       <div className="container mx-auto px-4 text-center" data-aos="fade-up">
-        <h3 className="text-3xl font-bold text-dark">Our Clients</h3>
+        <h3 className="text-3xl font-bold text-dark">Mitra Kami</h3>
         <hr className="w-16 h-1 bg-primary border-0 rounded-full mt-4 mb-6 mx-auto" />
-        <p className="max-w-2xl mx-auto text-gray">Client wleowleo</p>
+        <p className="max-w-2xl mx-auto text-gray">Daftar Mitra TEFA JTIK PNUP</p>
 
         <Swiper
           modules={[Pagination, Autoplay]}

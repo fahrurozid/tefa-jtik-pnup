@@ -12,12 +12,12 @@ const testimonialsData = [
   {
     quote: "Mahasiswa dari TEFA JTIK menunjukkan kompetensi teknis luar biasa. Mereka cepat beradaptasi, solutif, dan menyelesaikan proyek tepat waktu.",
     avatar: avatar1,
-    name: "Edgar Galon1",
+    name: "Edgar",
     title: "Project Manager, Tech Solutions Inc.",
     stars: 5,
   },
-  { quote: "Kami sangat terkesan dengan kualitas aplikasi mobile yang dikembangkan. Desainnya modern, mudah digunakan, dan membantu bisnis kami lebih efisien.", avatar: avatar2, name: "Edgar Galon2", title: "CEO, Startup Maju", stars: 5 },
-  { quote: "Kolaborasi dengan TEFA JTIK adalah investasi berharga. Mereka menghadirkan solusi inovatif yang mendukung perkembangan bisnis kami.", avatar: avatar3, name: "Siti Kurma", title: "CTO, Digital Kreasi", stars: 4 },
+  { quote: "Kami sangat terkesan dengan kualitas aplikasi mobile yang dikembangkan. Desainnya modern, mudah digunakan, dan membantu bisnis kami lebih efisien.", avatar: avatar2, name: "Sigit", title: "CEO, Startup Maju", stars: 5 },
+  { quote: "Kolaborasi dengan TEFA JTIK adalah investasi berharga. Mereka menghadirkan solusi inovatif yang mendukung perkembangan bisnis kami.", avatar: avatar3, name: "Siti", title: "CTO, Digital Kreasi", stars: 4 },
 ];
 
 const Testimonials = () => {

@@ -14,11 +14,11 @@ const About = () => {
           <div data-aos="fade-left" data-aos-delay="200">
             <p className="text-sm font-bold text-primary uppercase tracking-wider mb-2">ABOUT US</p>
             <h2 className="text-4xl lg:text-5xl font-bold text-dark leading-tight">
-              Why You Should <span className="text-primary">Choose</span> Us?
+              Kenapa Harus <span className="text-primary">Memilih</span> Kami?
             </h2>
             <p className="text-gray-600 mt-6 leading-relaxed">
-              Di Teaching Factory Jurusan Teknik Informatika dan Komputer, Politeknik Negeri Ujung Pandang, kami percaya bahwa kolaborasi adalah kunci inovasi. Bersama dosen dan mahasiswa, kami mengembangkan solusi web, manajemen jaringan,
-              dan konten digital yang dirancang untuk membantu industri berkembang dan beradaptasi dengan era digital.
+              Teaching Factory TIK PNUP adalah ekosistem produksi layanan dan produk digital yang memadukan pembelajaran, riset terapan, dan layanan industri. Setiap proyek mengusung deliverable terukur, quality gate ketat, serta standar
+              DevOps untuk memastikan solusi siap diadopsi.
             </p>
             <a href="https://tik.poliupg.ac.id/" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center text-primary font-semibold mt-8">
               Learn More

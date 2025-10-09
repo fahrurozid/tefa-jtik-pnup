@@ -10,7 +10,7 @@ const Contact = () => {
             <h3 className="text-3xl font-bold mt-2">
               Get In <span className="text-primary">Touch</span>
             </h3>
-            <p className="mt-4 text-gray">We'd love to hear from you. Fill out the form or use our contact details below.</p>
+            <p className="mt-4 text-gray"> Punya tantangan digital? — Mari Diskusikan</p>
 
             <div className="mt-8 space-y-4">
               <div className="flex items-start space-x-4">
@@ -26,7 +26,7 @@ const Contact = () => {
                 <div>
                   <h5 className="font-bold">Email Address</h5>
                   <a href="mailto:tefa.jtik@gmail.com" className="text-gray hover:text-primary">
-                    tefa.jtik@gmail.com
+                    email_tefa@pnup.ac.id
                   </a>
                 </div>
               </div>
@@ -35,9 +35,16 @@ const Contact = () => {
                 <i className="fas fa-phone-alt text-primary text-xl mt-1"></i>
                 <div>
                   <h5 className="font-bold">Phone Number</h5>
-                  <a href="tel:023456789237" className="text-gray hover:text-primary">
-                    023456789237
+                  <a href="tel:62xxxxxxx" className="text-gray hover:text-primary">
+                    +62‑xxx‑xxxx‑xxxx
                   </a>
+                </div>
+              </div>
+              <div className="flex items-start space-x-4">
+                <i className="fas fa-map-marker-alt text-primary text-xl mt-1"></i>
+                <div>
+                  <h5 className="font-bold">Jam Layanan</h5>
+                  <p className="text-gray">Senin–Jumat 08.00–16.00 WITA</p>
                 </div>
               </div>
             </div>

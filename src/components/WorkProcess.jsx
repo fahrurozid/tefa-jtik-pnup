@@ -16,14 +16,13 @@ const WorkProcess = () => {
           <div>
             <p className="text-sm font-bold text-primary uppercase tracking-wider mb-2">HERE ARE THE STEPS</p>
             <h2 className="text-4xl lg:text-5xl font-bold text-dark leading-tight">
-              How do We <span className="text-primary">Work?</span>
+              Bagaimana Cara Kami <span className="text-primary">Bekerja?</span>
             </h2>
           </div>
           <div>
             <p className="text-gray-600">Kami memiliki proses kerja yang terstruktur untuk memastikan setiap proyek ditangani dengan benar sesuai dengan kebutuhan Anda.</p>
           </div>
         </div>
-
 
         <div className="lg:hidden">
           {processSteps.map((step, index) => (

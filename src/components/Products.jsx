@@ -3,24 +3,38 @@ import React from "react";
 import projectImage1 from "../assets/webdev.jpg";
 import projectImage2 from "../assets/server.jpg";
 import projectImage3 from "../assets/iot.jpg";
+import projectImage4 from "../assets/cyber.jpg";
+import projectImage5 from "../assets/mobilapp.jpg";
 
 const projectsData = [
   {
     image: projectImage1,
-    title: "College Information System",
+    title: "Aplikasi Manajemen Aset Berbasis Web",
     description: "Platform terpusat untuk mengelola data mahasiswa, jadwal, dan nilai secara efisien.",
     link: "#",
   },
   {
     image: projectImage2,
-    title: "Network Design",
+    title: "Sistem absensi berbasis wajah (AI)",
     description: "Solusi desain dan implementasi sistem jaringan.",
     link: "#",
   },
   {
     image: projectImage3,
-    title: "Internet of Things (IoT)",
+    title: "Dashboard IoT cold‑chain",
     description: "Perangkat pintar yang dirancang untuk monitoring dan otomatisasi, dari prototipe hingga implementasi.",
+    link: "#",
+  },
+  {
+    image: projectImage4,
+    title: "Audit keamanan siber & hardening server",
+    description: "Audit Keamanan Siber adalah proses evaluasi menyeluruh terhadap sistem untuk mengidentifikasi, menganalisis, dan memperbaiki potensi celah keamanan.",
+    link: "#",
+  },
+  {
+    image: projectImage5,
+    title: "Aplikasi mobile UMKM (e‑commerce)",
+    description: "Platform digital yang dirancang untuk membantu pelaku UMKM dalam memasarkan produk secara online.",
     link: "#",
   },
 ];
@@ -33,8 +47,9 @@ const Products = () => {
           <div>
             <p className="text-sm font-bold text-primary uppercase tracking-wider mb-2">OUR TOP PRODUCTS</p>
             <h2 className="text-4xl lg:text-5xl font-bold text-dark leading-tight">
-              Find Your Next <br />
-              <span className="text-accent">Favorite Product</span>
+              Beberapa Produk
+              <br />
+              <span className="text-primary"> Unggulan</span> Kami
             </h2>
           </div>
           <div className="text-gray-600">
