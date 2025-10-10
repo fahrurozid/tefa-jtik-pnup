@@ -10,13 +10,13 @@ const projectsData = [
   {
     image: projectImage1,
     title: "Aplikasi Manajemen Aset Berbasis Web",
-    description: "Platform terpusat untuk mengelola data mahasiswa, jadwal, dan nilai secara efisien.",
+    description: "Aplikasi Manajemen Aset Berbasis Web adalah sistem yang dirancang untuk membantu organisasi dalam mencatat, memantau, dan mengelola aset secara efisien melalui platform web",
     link: "#",
   },
   {
     image: projectImage2,
     title: "Sistem absensi berbasis wajah (AI)",
-    description: "Solusi desain dan implementasi sistem jaringan.",
+    description: "Sistem absensi berbasis wajah adalah sistem kehadiran otomatis yang memanfaatkan teknologi kecerdasan buatan (AI) dan pengenalan wajah (face recognition)",
     link: "#",
   },
   {
